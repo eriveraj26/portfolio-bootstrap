@@ -1,0 +1,81 @@
+#profile {
+    width: 200px;
+    padding-top: 100px;
+}
+.page1_1st {
+    background-color: #dddddd;
+    color: #222831;
+}
+
+#name {
+    padding-top: 50px;
+    font-size: 4rem;
+}
+#title {
+    padding-top: 20px;
+    padding-bottom: 110px;
+    margin-bottom: -5px;
+    font-size: 2rem;
+}
+.page1_2nd {
+    background-color: #222831;
+    color: #dddddd;    
+}
+.header {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#angela {
+    padding-left: 100px; 
+    position: relative;
+        left: 50px;   
+}
+#got_started {
+    padding-top: 75px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#angela-row {
+    padding-bottom: 100px;
+}
+.page1_3rd {
+    background-color: #dddddd;
+    color: #30475e;
+}
+.tools {
+    padding-bottom: 50px;
+}
+.fa-10x {
+    color: #f05454;
+}
+.page1_4th {
+    background-color:#222831;
+    color: #dddddd;
+}
+.page1_4th_content {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.page1-4th-header {
+    color: #f05454;
+}
+.page1_5th {
+    background-color:#30475e;
+    color: #dddddd;
+    text-align: center;
+}
+.footer {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+#social-links {
+    padding-bottom: 50px;
+}
+.social {
+    margin: 20px;
+}
+
+.carousel {
+    background-color: #222831;
+    color: #dddddd;
+}
