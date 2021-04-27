@@ -3,45 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico">
     <title>Education | Edwin Rivera</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles1.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <style>
-        .carousel-inner p {
-            padding: 10px 200px;
-        }
-        h1 {
-            text-align: center;
-        }
-        .carousel-inner {
-            padding-top: 75px;
-            padding-bottom: 75px;
-        }
-        </style>
+    
+
 </head>
 <body>
 
   <!-- Nav Bar -->
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Edwin Rivera Jorge</a>
+    <a class="navbar-brand" href="index.html">Edwin Rivera Jorge</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="carousel collapse navbar-collapse ml-auto"  id="navbarNav">
+    <div class="collapse navbar-collapse ml-auto"  id="navbarNav">
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="education.html">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="whereiam.html">Where I Am</a>
+          <a class="nav-link" href="education.html">Education<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="whereimgoing.html" tabindex="-1" aria-disabled="true">Where I'm Going</a>
@@ -51,11 +39,11 @@
   </nav>
 
   <!-- Intro to Education Page -->
-  <div class="container-fluid">
-    <h1>Education</h1>
+  <div class="container-fluid" id="education-first">
+    <h1 class="ed">Education</h1>
     <div class="row">
         <div class="col-lg-5">
-        <h3>
+        <h3 id="if">
             If you are reading this after April 2021, you are reading the words of a University of Central Florida alumnus!
         </h3>
         </div>
@@ -63,11 +51,13 @@
         <p>
             When I started at University of Central Florida in Fall 2017, I was having a hard time deciding between a Music Performance degree and a STEM degree; I decided to go with Music Performance. During the process of meeting the music degree requirements, I also took courses in finance, accounting, and other disciplines--both related and not--and partook in both political office and non-profit internships. I have graduated from UCF with a degree in Integrated General Studies and a double minor in Music and Business, a combination which I believe best showcases what I have learned in my time at UCF.
         </p>      
-        </div>
+    </div>
     </div>
       
       
   </div>
+
+  
   <!-- Experience Carousel -->
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -132,7 +122,7 @@
   <div class="container-fluid page1_5th">
     <p class="text-center footer">To keep following me on my journey, follow me on...</p>
     <div id="social-links">
-      <i class="fab fa-linkedin fa-2x social"></i>
-      <i class="fab fa-github fa-2x social"></i>
+      <a href="https://www.linkedin.com/in/edwin-rivera-jorge"> <i class="fab fa-linkedin fa-2x social"></i> </a>
+      <a href="https://github.com/eriveraj26"> <i class="fab fa-github fa-2x social"></i> </a>
     </div>
   </div>

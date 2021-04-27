@@ -1,0 +1,162 @@
+#profile {
+    width: 200px;
+    padding-top: 100px;
+}
+.page1_1st {
+    background-color: #dddddd;
+    color: #222831;
+}
+#name {
+    padding-top: 50px;
+    font-size: 4rem;
+}
+#title {
+    padding-top: 20px;
+    padding-bottom: 110px;
+    margin-bottom: -5px;
+    font-size: 2rem;
+}
+#started {
+    padding-bottom: 30px;
+}
+.page1_2nd {
+    background-color: #222831;
+    color: #dddddd;  
+}
+.angela-pic {
+    text-align: right;
+}
+.angela-text{
+    text-align: left;
+}
+
+.header {
+    padding-top: 75px;
+}
+#angela {
+    
+    position: relative;
+        left: 50px;   
+}
+#got_started {
+    padding: 10px 10px;
+}
+#angela-row {
+    padding-bottom: 100px;
+}
+
+.page1_3rd {
+    background-color: #dddddd;
+    color: #30475e;
+}
+.tools {
+    padding-bottom: 50px;
+}
+.fa-10x {
+    color: #f05454;
+}
+.page1_4th {
+    background-color:#222831;
+    color: #dddddd;
+}
+.page1_4th_content {
+    padding-top: 25px;
+    padding-bottom: 75px;
+    text-align:center;
+}
+.page1-4th-header {
+    color: #f05454;
+    padding-bottom: 25px;
+}
+.page1-4th-p {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.page1_5th {
+    background-color:#30475e;
+    color: #dddddd;
+    text-align: center;
+}
+.footer {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+#social-links {
+    padding-bottom: 50px;
+}
+.social {
+    margin: 20px;
+}
+.carousel {
+    background-color: #222831;
+    color: #dddddd;
+}
+#education-first {
+    background-color: #dddddd;
+    color: #222831;
+    padding: 75px 50px;
+}
+#where-first {
+    background-color: #dddddd;
+    color: #222831;
+    padding: 75px 75px;
+    font-size: 1.5rem;
+
+}
+.ed {
+    padding-bottom: 50px;
+}
+#if {
+    padding-top: 30px; 
+}
+a, a:visited {
+    color: inherit;
+}
+.carousel-inner p {
+    padding: 10px 15%;
+}
+h1 {
+    text-align: center;
+}
+.carousel-inner {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.do {
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+#creating {
+    font-size: 5rem;
+}
+.image-cropper {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-pic {
+  display: inline-block;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.pics {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.whereimgoingpics {
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+.wig {
+    margin-bottom: 30px;
+}
+
